@@ -4,8 +4,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OmniSubs - Download and Translate Subtitles Instantly</title>
+    <title>OmniSubs - Download and Translate Subtitles Instantly for Movies & TV Shows</title>
+    <meta name="description" content="OmniSubs lets you download high-quality subtitles and translate them to any language with a single click. Integrates with Windows context menu for instant access.">
     <link rel="stylesheet" href="style.css">
+    <!-- Structured Data Markup -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "OmniSubs",
+      "description": "Windows tool to download and translate subtitles with a single click",
+      "applicationCategory": "UtilitiesApplication",
+      "operatingSystem": "Windows",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      }
+    }
+    </script>
 </head>
 
 <body>
@@ -13,226 +30,230 @@
         <div class="container">
             <nav>
                 <div class="logo">
-                    <img src="images/omni-logo.png" alt="OmniSubs Logo" />
+                    <img src="images/omni-logo.png" alt="OmniSubs Logo - Subtitle download and translation tool" />
                     OmniSubs
                 </div>
                 <ul class="nav-links">
-                    <li><a href="#features">Features</a></li>
-                    <li><a href="#demo">Demo</a></li>
-                    <li><a href="#installation">Installation</a></li>
-                    <li><a href="#faq">FAQ</a></li>
-                    <li><a href="https://github.com/Gabriel-sy/OmniSubs" target="_blank">GitHub</a></li>
+                    <li><a href="#features" aria-label="Features section">Features</a></li>
+                    <li><a href="#demo" aria-label="Demo section">Demo</a></li>
+                    <li><a href="#installation" aria-label="Installation section">Installation</a></li>
+                    <li><a href="#faq" aria-label="FAQ section">FAQ</a></li>
+                    <li><a href="https://github.com/Gabriel-sy/OmniSubs" target="_blank" rel="noopener" aria-label="GitHub repository">GitHub</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
-    <section class="hero">
-        <div class="container">
-            <h1 class="glow-text">Download & Translate Subtitles with a Single Click</h1>
-            <p>OmniSubs integrates directly with your Windows context menu, letting you download premium-quality
-                subtitles and translate them to any language instantly.</p>
-            <a href="https://github.com/Gabriel-sy/OmniSubs/releases/download/v2.0/OmniSubsInstaller.msi"
-                class="cta-button glow-button">Download Now</a>
-            <div class="github-stats">
-                <img src="https://img.shields.io/github/downloads/Gabriel-sy/SubtitlesDownloader/total?style=for-the-badge&color=blue&label=Downloads&logo=github&logoColor=white"
-                    alt="GitHub Downloads" />
-            </div>
-        </div>
-    </section>
-
-    <!-- Demo Section -->
-    <section class="demo">
-        <div class="container">
-            <h2>See OmniSubs in Action</h2>
-            <div class="demo-container">
-                <div class="demo-card">
-                    <h3>Instant Downloads</h3>
-                    <div class="video-container">
-                        <video class="download" autoplay loop muted>
-                            <source src="videos/demo-download.mp4" type="video/mp4">
-                            Your browser does not support the video tag.
-                        </video>
-                    </div>
-                    <p>Download subtitles from any video platform in seconds.</p>
-                </div>
-
-                <div class="demo-card">
-                    <h3>Smart Translation</h3>
-                    <div class="video-container">
-                        <video class="translate" autoplay loop muted>
-                            <source src="videos/demo-translate2.mp4" type="video/mp4">
-                            Your browser does not support the video tag.
-                        </video>
-                    </div>
-                    <p>Translate subtitles to any language with a single click.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Features Section -->
-    <section class="features" id="features">
-        <div class="container">
-            <div class="section-title">
-                <h2>Why Choose OmniSubs?</h2>
-                <p>Simple, fast, and powerful subtitle management</p>
-            </div>
-            <div class="feature-grid">
-                <div class="feature-card">
-                    <div class="feature-icon">🖱️</div>
-                    <h3>Right-Click Integration</h3>
-                    <p>Download subtitles directly from the Windows context menu without opening any additional
-                        applications.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">🌍</div>
-                    <h3>Instant Translation</h3>
-                    <p>Translate subtitle files to your preferred language using Google Gemini's powerful AI translation
-                        capabilities.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">🔍</div>
-                    <h3>Premium Quality</h3>
-                    <p>Access high-quality subtitles from OpenSubtitles.com's extensive library covering movies and TV
-                        shows in multiple languages.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">⚡</div>
-                    <h3>Lightning Fast</h3>
-                    <p>Download and translate subtitles in seconds, saving you time and enhancing your viewing
-                        experience.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">🔒</div>
-                    <h3>Secure Credentials</h3>
-                    <p>Your login details are stored locally and used solely for authentication with OpenSubtitles.com.
-                    </p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">🛠️</div>
-                    <h3>Easy Setup</h3>
-                    <p>Simple installation process that gets you up and running in minutes with minimal configuration
-                        required.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Installation Section -->
-    <section class="installation" id="installation">
-        <div class="container">
-            <div class="section-title">
-                <h2>Getting Started</h2>
-                <p>Follow these simple steps to install and configure OmniSubs</p>
-            </div>
-            <div class="steps">
-                <div class="step">
-                    <div class="step-number">1</div>
-                    <div class="step-content">
-                        <h3>Download the Installer</h3>
-                        <p>Get the latest version from <a
-                                href="https://github.com/Gabriel-sy/OmniSubs/releases/download/v2.0/OmniSubsInstaller.msi">this
-                                link</a>.</p>
-                    </div>
-                </div>
-                <div class="step">
-                    <div class="step-number">2</div>
-                    <div class="step-content">
-                        <h3>Run the Installer</h3>
-                        <p>Execute the installer and follow the standard installation process.</p>
-                    </div>
-                </div>
-                <div class="step">
-                    <div class="step-number">3</div>
-                    <div class="step-content">
-                        <h3>Launch the Program</h3>
-                        <p>Click on the desktop shortcut created after installation.</p>
-                    </div>
-                </div>
-                <div class="step">
-                    <div class="step-number">4</div>
-                    <div class="step-content">
-                        <h3>Log In</h3>
-                        <p>Enter your <a href="https://www.opensubtitles.com" target="_blank">OpenSubtitles.com</a>
-                            credentials and click the "Login" button.</p>
-                    </div>
-                </div>
-                <div class="step">
-                    <div class="step-number">5</div>
-                    <div class="step-content">
-                        <h3>Configure Settings</h3>
-                        <p>Adjust your preferences and click the "Save/Install" button. OmniSubs is now ready to use!
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div style="text-align: center; margin-top: 3rem;">
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1 class="glow-text">Download & Translate Subtitles with a Single Click</h1>
+                <p>OmniSubs integrates directly with your Windows context menu, letting you download premium-quality
+                    subtitles and translate them to any language instantly.</p>
                 <a href="https://github.com/Gabriel-sy/OmniSubs/releases/download/v2.0/OmniSubsInstaller.msi"
-                    class="cta-button glow-button">Download OmniSubs v2.0</a>
+                    class="cta-button glow-button" aria-label="Download OmniSubs">Download Now</a>
+                <div class="github-stats">
+                    <img src="https://img.shields.io/github/downloads/Gabriel-sy/SubtitlesDownloader/total?style=for-the-badge&color=blue&label=Downloads&logo=github&logoColor=white"
+                        alt="GitHub Downloads Count Badge" />
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- FAQ Section -->
-    <section class="faq" id="faq">
-        <div class="container">
-            <div class="section-title">
-                <h2>Frequently Asked Questions</h2>
-                <p>Find answers to common questions about OmniSubs</p>
-            </div>
-            <div class="faq-list">
-                <div class="faq-item">
-                    <div class="faq-question">
-                        Do I need an account to use OmniSubs?
-                    </div>
-                    <div class="faq-answer">
-                        <p>Yes, you need an account on <a href="https://www.opensubtitles.com"
-                                target="_blank">OpenSubtitles.com</a> to use OmniSubs. The registration is free and only
-                            takes a minute.</p>
-                    </div>
-                </div>
-                <div class="faq-item">
-                    <div class="faq-question">
-                        Is there a limit to how many subtitles I can download?
-                    </div>
-                    <div class="faq-answer">
-                        <p>Free users of OpenSubtitles.com have a daily download limit, which may result in errors if
-                            you attempt too many downloads in a single day. Premium accounts have higher or unlimited
-                            download limits.</p>
-                    </div>
-                </div>
-                <div class="faq-item">
-                    <div class="faq-question">
-                        Which video formats are supported?
-                    </div>
-                    <div class="faq-answer">
-                        <p>OmniSubs works with most common video formats including MP4, MKV, AVI, WMV, and more. If your
-                            video file has proper metadata, OmniSubs should be able to find matching subtitles.</p>
-                    </div>
-                </div>
-                <div class="faq-item">
-                    <div class="faq-question">
-                        How secure is my OpenSubtitles.com account information?
-                    </div>
-                    <div class="faq-answer">
-                        <p>Your login credentials are stored locally on your machine and are only used to authenticate
-                            with OpenSubtitles.com. OmniSubs does not send your information to any third parties.</p>
-                    </div>
-                </div>
-                <div class="faq-item">
-                    <div class="faq-question">
-                        Which languages can I translate subtitles to?
-                    </div>
-                    <div class="faq-answer">
-                        <p>With Gemini translation integration, you can translate subtitles to virtually any major
-                            language. The translation quality depends on the language pair and the clarity of the
-                            original subtitles.</p>
-                    </div>
+        <!-- Demo Section -->
+        <section id="demo" class="demo">
+            <div class="container">
+                <h2>See OmniSubs in Action</h2>
+                <div class="demo-container">
+                    <article class="demo-card">
+                        <h3>Instant Downloads</h3>
+                        <div class="video-container">
+                            <video class="download" autoplay loop muted aria-label="Demo of instant subtitle download feature">
+                                <source src="videos/demo-download.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                        <p>Download subtitles from any video platform in seconds. <a href="#features">Learn more about download features</a>.</p>
+                    </article>
+
+                    <article class="demo-card">
+                        <h3>Smart Translation</h3>
+                        <div class="video-container">
+                            <video class="translate" autoplay loop muted aria-label="Demo of subtitle translation feature">
+                                <source src="videos/demo-translate2.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                        <p>Translate subtitles to any language with a single click. <a href="#faq">See supported languages</a>.</p>
+                    </article>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+
+        <!-- Features Section -->
+        <section id="features" class="features">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Why Choose OmniSubs?</h2>
+                    <p>Simple, fast, and powerful subtitle management</p>
+                </div>
+                <div class="feature-grid">
+                    <article class="feature-card">
+                        <div class="feature-icon" aria-hidden="true">🖱️</div>
+                        <h3>Right-Click Integration</h3>
+                        <p>Download subtitles directly from the Windows context menu without opening any additional
+                            applications. <a href="#installation">See how it works</a>.</p>
+                    </article>
+                    <article class="feature-card">
+                        <div class="feature-icon" aria-hidden="true">🌍</div>
+                        <h3>Instant Translation</h3>
+                        <p>Translate subtitle files to your preferred language using Google Gemini's powerful AI translation
+                            capabilities. <a href="#demo">Watch the demo</a>.</p>
+                    </article>
+                    <article class="feature-card">
+                        <div class="feature-icon" aria-hidden="true">🔍</div>
+                        <h3>Premium Quality</h3>
+                        <p>Access high-quality subtitles from OpenSubtitles.com's extensive library covering movies and TV
+                            shows in multiple languages.</p>
+                    </article>
+                    <article class="feature-card">
+                        <div class="feature-icon" aria-hidden="true">⚡</div>
+                        <h3>Lightning Fast</h3>
+                        <p>Download and translate subtitles in seconds, saving you time and enhancing your viewing
+                            experience. Perfect for movie nights.</p>
+                    </article>
+                    <article class="feature-card">
+                        <div class="feature-icon" aria-hidden="true">🔒</div>
+                        <h3>Secure Credentials</h3>
+                        <p>Your login details are stored locally and used solely for authentication with OpenSubtitles.com.
+                            <a href="#faq">Learn about security</a>.</p>
+                    </article>
+                    <article class="feature-card">
+                        <div class="feature-icon" aria-hidden="true">🛠️</div>
+                        <h3>Easy Setup</h3>
+                        <p>Simple installation process that gets you up and running in minutes with minimal configuration
+                            required. <a href="#installation">View installation guide</a>.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Installation Section -->
+        <section id="installation" class="installation">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Getting Started with OmniSubs</h2>
+                    <p>Follow these simple steps to install and configure OmniSubs</p>
+                </div>
+                <div class="steps">
+                    <article class="step">
+                        <div class="step-number" aria-hidden="true">1</div>
+                        <div class="step-content">
+                            <h3>Download the Installer</h3>
+                            <p>Get the latest version from <a
+                                    href="https://github.com/Gabriel-sy/OmniSubs/releases/download/v2.0/OmniSubsInstaller.msi"
+                                    aria-label="Download OmniSubs installer">this
+                                    link</a>.</p>
+                        </div>
+                    </article>
+                    <article class="step">
+                        <div class="step-number" aria-hidden="true">2</div>
+                        <div class="step-content">
+                            <h3>Run the Installer</h3>
+                            <p>Execute the installer and follow the standard installation process. Compatible with Windows 10 and 11.</p>
+                        </div>
+                    </article>
+                    <article class="step">
+                        <div class="step-number" aria-hidden="true">3</div>
+                        <div class="step-content">
+                            <h3>Launch the Program</h3>
+                            <p>Click on the desktop shortcut created after installation. <a href="#features">Explore features</a> after launch.</p>
+                        </div>
+                    </article>
+                    <article class="step">
+                        <div class="step-number" aria-hidden="true">4</div>
+                        <div class="step-content">
+                            <h3>Log In</h3>
+                            <p>Enter your <a href="https://www.opensubtitles.com" target="_blank" rel="noopener"
+                                    aria-label="OpenSubtitles.com website">OpenSubtitles.com</a>
+                                credentials and click the "Login" button.</p>
+                        </div>
+                    </article>
+                    <article class="step">
+                        <div class="step-number" aria-hidden="true">5</div>
+                        <div class="step-content">
+                            <h3>Configure Settings</h3>
+                            <p>Adjust your preferences and click the "Save/Install" button. OmniSubs is now ready to use!
+                                <a href="#faq">Check FAQ for common questions</a>.</p>
+                        </div>
+                    </article>
+                </div>
+                <div style="text-align: center; margin-top: 3rem;">
+                    <a href="https://github.com/Gabriel-sy/OmniSubs/releases/download/v2.0/OmniSubsInstaller.msi"
+                        class="cta-button glow-button" aria-label="Download OmniSubs v2.0">Download OmniSubs v2.0</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section id="faq" class="faq">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Frequently Asked Questions About OmniSubs</h2>
+                    <p>Find answers to common questions about OmniSubs</p>
+                </div>
+                <div class="faq-list">
+                    <article class="faq-item">
+                        <h3 class="faq-question">
+                            Do I need an account to use OmniSubs?
+                        </h3>
+                        <div class="faq-answer">
+                            <p>Yes, you need an account on <a href="https://www.opensubtitles.com"
+                                    target="_blank" rel="noopener" aria-label="OpenSubtitles.com registration">OpenSubtitles.com</a> to use OmniSubs. The registration is free and only
+                                takes a minute. <a href="#installation">See installation guide</a> for setup instructions.</p>
+                        </div>
+                    </article>
+                    <article class="faq-item">
+                        <h3 class="faq-question">
+                            Is there a limit to how many subtitles I can download?
+                        </h3>
+                        <div class="faq-answer">
+                            <p>Free users of OpenSubtitles.com have a daily download limit, which may result in errors if
+                                you attempt too many downloads in a single day. Premium accounts have higher or unlimited
+                                download limits.</p>
+                        </div>
+                    </article>
+                    <article class="faq-item">
+                        <h3 class="faq-question">
+                            Which video formats are supported by OmniSubs?
+                        </h3>
+                        <div class="faq-answer">
+                            <p>OmniSubs works with most common video formats including MP4, MKV, AVI, WMV, and more. If your
+                                video file has proper metadata, OmniSubs should be able to find matching subtitles. <a href="#features">Check out all features</a>.</p>
+                        </div>
+                    </article>
+                    <article class="faq-item">
+                        <h3 class="faq-question">
+                            How secure is my OpenSubtitles.com account information?
+                        </h3>
+                        <div class="faq-answer">
+                            <p>Your login credentials are stored locally on your machine and are only used to authenticate
+                                with OpenSubtitles.com. OmniSubs does not send your information to any third parties.</p>
+                        </div>
+                    </article>
+                    <article class="faq-item">
+                        <h3 class="faq-question">
+                            Which languages can I translate subtitles to with OmniSubs?
+                        </h3>
+                        <div class="faq-answer">
+                            <p>With Gemini translation integration, you can translate subtitles to virtually any major
+                                language including English, Spanish, French, German, Italian, Portuguese, Russian, Japanese, Chinese, Korean, and many more. The translation quality depends on the language pair and the clarity of the
+                                original subtitles. <a href="#demo">See translation demo</a>.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
 
     <!-- Footer -->
     <footer>
@@ -241,35 +262,35 @@
                 <div class="footer-column">
                     <h3>OmniSubs</h3>
                     <p>A powerful Windows context menu tool for downloading and translating subtitles with a single
-                        click.</p>
+                        click. Perfect for movie and TV show enthusiasts.</p>
                 </div>
                 <div class="footer-column">
                     <h3>Links</h3>
                     <ul class="footer-links">
-                        <li><a href="#features">Features</a></li>
-                        <li><a href="#demo">Demo</a></li>
-                        <li><a href="#installation">Installation</a></li>
-                        <li><a href="#faq">FAQ</a></li>
+                        <li><a href="#features" aria-label="Features section">Features</a></li>
+                        <li><a href="#demo" aria-label="Demo section">Demo</a></li>
+                        <li><a href="#installation" aria-label="Installation section">Installation</a></li>
+                        <li><a href="#faq" aria-label="FAQ section">FAQ</a></li>
                     </ul>
                 </div>
                 <div class="footer-column">
                     <h3>Resources</h3>
                     <ul class="footer-links">
-                        <li><a href="https://github.com/Gabriel-sy/OmniSubs" target="_blank">GitHub Repository</a></li>
-                        <li><a href="https://github.com/Gabriel-sy/OmniSubs/issues" target="_blank">Report Issues</a>
+                        <li><a href="https://github.com/Gabriel-sy/OmniSubs" target="_blank" rel="noopener" aria-label="GitHub Repository">GitHub Repository</a></li>
+                        <li><a href="https://github.com/Gabriel-sy/OmniSubs/issues" target="_blank" rel="noopener" aria-label="Report Issues">Report Issues</a>
                         </li>
-                        <li><a href="https://www.opensubtitles.com" target="_blank">OpenSubtitles.com</a></li>
+                        <li><a href="https://www.opensubtitles.com" target="_blank" rel="noopener" aria-label="OpenSubtitles.com">OpenSubtitles.com</a></li>
                     </ul>
                 </div>
                 <div class="footer-column">
                     <h3>Contact</h3>
                     <ul class="footer-links">
-                        <li><a href="https://github.com/Gabriel-sy" target="_blank">GitHub Profile</a></li>
+                        <li><a href="https://github.com/Gabriel-sy" target="_blank" rel="noopener" aria-label="GitHub Profile">GitHub Profile</a></li>
                     </ul>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2025 OmniSubs. All rights reserved.</p>
+                <p>&copy; 2025 OmniSubs. All rights reserved. | <a href="#" aria-label="Privacy Policy">Privacy Policy</a> | <a href="#" aria-label="Terms of Service">Terms of Service</a></p>
             </div>
         </div>
     </footer>
