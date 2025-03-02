@@ -223,10 +223,32 @@ nav {
   color: var(--text-secondary);
 }
 
-/* Mobile responsiveness */
-@media (max-width: 768px) {
-  .demo-card {
-    min-width: 100%;
+
+@media (max-width: 1050px) {
+  .video-container video {
+    object-fit: contain;
+    width: 100%;
+    
+  }
+  .demo-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .translate {
+    width: 100%;
+    height: 710px;
+    
+  }
+
+  .download {
+    height: auto;
+  }
+}
+
+@media (max-width: 580px){
+  .translate {
+    height: auto;
   }
 }
 
